@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsequtiveNumbers2", "ConsequtiveNumbers2\ConsequtiveNumbers2.csproj", "{E9741972-B636-40F8-A278-0BBD2FB4DCAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9741972-B636-40F8-A278-0BBD2FB4DCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9741972-B636-40F8-A278-0BBD2FB4DCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9741972-B636-40F8-A278-0BBD2FB4DCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9741972-B636-40F8-A278-0BBD2FB4DCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {824D3E7D-306B-46B6-BAAD-321AF61DC21B}
+	EndGlobalSection
+EndGlobal
