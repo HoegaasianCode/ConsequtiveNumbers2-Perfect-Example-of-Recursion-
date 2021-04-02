@@ -1,8 +1,4 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsequtiveNumbers2
 {
@@ -15,7 +11,7 @@ namespace ConsequtiveNumbers2
         private int ConsequtiveCount { get; set; }
         private bool IsConsequtive { get; set; }
 
-        public ConseqCalc(int[] numbers, int n, int tresholdCount) //  { 1, 3, 5, 5, 3, 3, 3 }, 3, 3);
+        public ConseqCalc(int[] numbers, int n, int tresholdCount) //  { 1, 3, 5, 5, 3, 3 }, 3, 3);
         {
             _numbers = numbers;
             _n = n;
@@ -46,11 +42,13 @@ namespace ConsequtiveNumbers2
 
         public void ShiftIntsByN()
         {
+            int offset = -1;
             List<int> shiftedInts = new();
             for(int i = ConsequtiveCount; i < _numbers.Length; i++)
             {
                 int number = _numbers[i];
                 shiftedInts.Add(number);
+                shiftedInts.Add(offset);
             }
             ShiftedInts = shiftedInts;
         }
