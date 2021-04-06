@@ -9,9 +9,8 @@ namespace ConsequtiveNumbers2
         
         static void Main(string[] args)
         {
-            ConseqCalc calc = new(new int[] { 1, 3, 5, 5, 3, 3, 1 }, 3, 2);
-            calc.ShiftIntsByN();
-            calc.IsConsequtiveOrder();
+            ConseqCalc calc = new(new int[] { 1, 2, 3, 4, 5 }, 1, 1);
+            calc.IsConsequtive();
             Console.Write(calc.IsValid());
         }
     }
